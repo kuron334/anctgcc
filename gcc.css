@@ -1,0 +1,11 @@
+@charset "UTF-8"; <!--必ず必要-->
+p{
+  color: #0033;
+}
+
+.logo:hover{
+  opacity: 0.5;
+}
+a:hover{
+  color: #ff7c7e;
+}
