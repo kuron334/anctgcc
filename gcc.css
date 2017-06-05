@@ -2,10 +2,9 @@
 p{
   color: #0033;
 }
-
 .logo:hover{
-  opacity: 0.5;
+  opacity: 0.2;
 }
 a:hover{
-  color: #ff7c7e;
+  color: #ffff33;
 }
