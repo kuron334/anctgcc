@@ -2,9 +2,16 @@
 p{
   color: #0033;
 }
+
 .logo:hover{
   opacity: 0.7;
 }
 a:hover{
+  color: #7B3CFF;
+}
+a:link{
+  color: #0000CD;
+}
+a:visited{
   color: #FF0000;
 }
