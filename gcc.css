@@ -6,9 +6,12 @@ p{
 .logo:hover{
   opacity: 0.7;
 }
-a:hover{
-  color: #5507FF;
-}
 a:link{
+  color: #111111;
+}
+a:hover{
   color: #B384FF;
+}
+a:visited{
+  color: #5507FF;
 }
