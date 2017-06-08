@@ -32,6 +32,17 @@ a:visited{
   margin: 0;
   text-align: center;
 }
+.campaign{
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #389bc2;
+  color: black;
+  text-align: center;
+}
+.campaign:hover{
+  background:#fdb657; 
+}
 /*.HOME{
   background-color: white;
   border-top: 1px solid #111;
