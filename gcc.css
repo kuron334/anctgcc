@@ -9,6 +9,7 @@ body{
 */
 a:link{
   color: #111111;
+  text-decoration: none;
 }
 a:hover{
   color: #B384FF;
@@ -18,14 +19,18 @@ a:visited{
 }
 
 .navi{
-  margin-bottom: 10px;
-  padding:30px 0;
+  margin-bottom: 0;
+  padding: 30px 0;
   width:300px;
 }
 .navi p{
   margin: 0;
   text-align: center;
   color: #fff;
+  border-top: 1px solid #111;
+  border-left: 1px solid #111;
+  border-right: 1px solid #111;
+  border-bottom: 1px solid #111;
 }
 .navi:hover{
   color: #EEE;
