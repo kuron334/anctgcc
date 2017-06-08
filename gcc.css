@@ -28,7 +28,6 @@ a:visited{
   background-color: white;
 }
 .navi:hover{
-  color: white;
   background-color: black;
 }
 .navi a{
@@ -36,6 +35,10 @@ a:visited{
   display: block;
   width: auto;
   height: auto;
+  color: black;
+}
+.navi a:hover{
+  color: white;
 }
 .navi a p{
   display: block;
