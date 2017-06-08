@@ -37,8 +37,8 @@ a.navilink{
   text-align: center;
 }
 .campaign{
-  width: 1000px;
-  height: 200px;
+  width: 800px;
+  height: 180px;
   margin: 0 auto;
   padding: 20px;
   background-color: #389bc2;
@@ -46,13 +46,13 @@ a.navilink{
   text-align: center;
 }
 .campaign:hover{
-  background-color: #fdb657; 
+  background-color: #fdb657;
 }
 .campaign a{
   display: block;
   text-align: center;
-  width: 1000px;
-  height: 200px;
+  width: 800px;
+  height: 220px;
 }
 .HOME{
   border:1px solid black;
