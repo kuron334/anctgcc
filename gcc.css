@@ -34,8 +34,7 @@ a:visited{
 .navi p:hover{
   color: white;
 }
-/*
-.HOME{
+/*.HOME{
   background-color: white;
   border-top: 1px solid #111;
   border-left: 1px solid #111;
@@ -64,3 +63,15 @@ a:visited{
   border-bottom: 1px solid #111;
 }
 */
+.HOME{
+  border:1px solid black;
+}
+.aboutgcc{
+  border:1px solid black;
+}
+.ichiran{
+  border:1px solid black;
+}
+.news{
+  border:1px solid black;
+}
