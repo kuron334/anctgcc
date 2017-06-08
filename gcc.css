@@ -8,7 +8,7 @@ body{
 }
 */
 p{
-  font-size: 30px;
+  font-size: 25px;
 }
 a{
   color: #5507FF;
@@ -61,8 +61,10 @@ a:visited{
 
 .HOME{
   margin: 0;
-  width: 210px;
-  padding: 30px;
+  padding: 0;
+  width: 200px;
+  height: 50px;
+  text-align: center;
   border:1px solid black;
   color: black;
   background-color: white;
@@ -74,13 +76,15 @@ a:visited{
 .HOME a{
   text-align: center;
   display: block;
-  width: 270px;
-  height: 90px;
+  width: 200px;
+  height: 50px;
 }
 .aboutgcc{
   margin: 0;
-  width: 210px;
-  padding: 30px;
+  padding: 0;
+  width: 200px;
+  height: 50px;
+  text-align: center;
   border:1px solid black;
   color: black;
   background-color: white;
@@ -92,13 +96,15 @@ a:visited{
 .aboutgcc a{
   text-align: center;
   display: block;
-  width: 270px;
-  height: 90px;
+  width: 200px;
+  height: 50px;
 }
 .ichiran{
   margin: 0;
-  width: 210px;
-  padding: 30px;
+  padding: 0;
+  width: 200px;
+  height: 50px;
+  text-align: center;
   border:1px solid black;
   color: black;
   background-color: white;
@@ -110,17 +116,18 @@ a:visited{
 .ichiran a{
   text-align: center;
   display: block;
-  width: 270px;
-  height: 90px;
+  width: 200px;
+  height: 50px;
 }
 .news{
   margin: 0;
-  width: 210px;
-  padding: 30px;
+  padding: 0;
+  width: 200px;
+  height: 50px;
+  text-align: center;
   border:1px solid black;
   color: black;
   background-color: white;
-}
 .news:hover{
   color: white;
   background-color: black;
@@ -128,6 +135,6 @@ a:visited{
 .news a{
   text-align: center;
   display: block;
-  width: 270px;
-  height: 90px;
+  width: 250px;
+  height: 50px;
 }
