@@ -18,41 +18,38 @@ a:visited{
   color: #5507FF;
 }
 
-
+.navil{
+  text-align: center;
+  display: block;
+  width: 280;
+  height: 45;
+  color: black;
+}
+.navil:hover{
+  color: white;
+}
+.navil:visited{
+  color: none;
+}
 .navi{
   margin: 0;
   padding: 30px;
   width: 250px;
-  color: black;
   text-align: center;
-  background-color: white;
+  background-color: black;
 }
 .navi:hover{
   margin: 0;
   padding: 30px;
   width: 250px;
-  color: black;
   text-align: center;
-  background-color: black;
+  background-color: white;
 }
-.navi a{
-  text-align: center;
-  display: block;
-  width: auto;
-  height: auto;
-  color: black;
-}
-.navi a:hover{
-  color: white;
-}
-.navi a:visited{
-  color: none;
-}
-.navi a p{
-  display: block;
-  width: auto;
-  height: auto;
+.navi p{
   margin: 0;
+  display: block;
+  width: auto;
+  height: auto;
   text-align: center;
 }
 
