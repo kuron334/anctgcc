@@ -7,6 +7,9 @@ body{
   opacity: 0.7;
 }
 */
+p{
+  font-size: 15px;
+}
 a{
   color: #5507FF;
   text-decoration: none;
@@ -71,8 +74,8 @@ a:visited{
 .HOME a{
   text-align: center;
   display: block;
-  width: 100%+30px;
-  height: 100%+30px;
+  width: 280px;
+  height: 45px;
 }
 .aboutgcc{
   margin: 0;
@@ -89,8 +92,8 @@ a:visited{
 .aboutgcc a{
   text-align: center;
   display: block;
-  width: 100%+30px;
-  height: 100%+30px;
+  width: 280px;
+  height: 45px;
 }
 .ichiran{
   margin: 0;
@@ -107,8 +110,8 @@ a:visited{
 .ichiran a{
   text-align: center;
   display: block;
-  width: 100%+30px;
-  height: 100%+30px;
+  width: 280px;
+  height: 45px;
 }
 .news{
   margin: 0;
@@ -125,6 +128,6 @@ a:visited{
 .news a{
   text-align: center;
   display: block;
-  width: 100%+30px;
-  height: 100%+30px;
+  width: 280px;
+  height: 45px;
 }
