@@ -24,15 +24,15 @@ a:visited{
   /*background-color: black;*/
 }
 .navi:hover{
-  color: black;
+  background-color: black;
 }
 .navi p{
   margin: 0;
   text-align: center;
-  color: white;
+  color: black;
 }
 .navi p:hover{
-  color: black;
+  color: white;
 }
 .HOME{
   background-color: white;
