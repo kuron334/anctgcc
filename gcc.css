@@ -17,10 +17,13 @@ a:hover{
 a:visited{
   color: #5507FF;
 }
+a.navilink{
+  display: block;
+}
 .navi{
   margin: 0;
-  padding: 30px 0;
-  width: 300px;
+  padding: 30px;
+  width: 250px;
   color: black;
   background-color: white;
 }
@@ -35,7 +38,7 @@ a:visited{
 .campaign{
   width: 50%;
   margin: 0 auto;
-  padding: 0;
+  padding: 20px;
   background-color: #389bc2;
   color: black;
   text-align: center;
@@ -43,35 +46,6 @@ a:visited{
 .campaign:hover{
   background-color: #fdb657; 
 }
-/*.HOME{
-  background-color: white;
-  border-top: 1px solid #111;
-  border-left: 1px solid #111;
-  border-right: 1px solid #111;
-  border-bottom: 1px solid #111;
-}
-.aboutgcc{
-  background-color: white;
-  border-top: 1px solid #111;
-  border-left: 1px solid #111;
-  border-right: 1px solid #111;
-  border-bottom: 1px solid #111;
-}
-.ichiran{
-  background-color: white;
-  border-top: 1px solid #111;
-  border-left: 1px solid #111;
-  border-right: 1px solid #111;
-  border-bottom: 1px solid #111;
-}
-.news{
-  background-color: white;
-  border-top: 1px solid #111;
-  border-left: 1px solid #111;
-  border-right: 1px solid #111;
-  border-bottom: 1px solid #111;
-}
-*/
 .HOME{
   border:1px solid black;
 }
