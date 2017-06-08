@@ -7,7 +7,7 @@ body{
   opacity: 0.7;
 }
 */
-a:link{
+a{
   color: #5507FF;
   text-decoration: none;
 }
@@ -21,19 +21,16 @@ a:visited{
   margin: 0;
   padding: 30px 0;
   width: 300px;
+  color: black;
   background-color: white;
 }
 .navi:hover{
+  color: white;
   background-color: black;
 }
 .navi p{
   margin: 0;
-  padding: 30px;
   text-align: center;
-  color: black;
-}
-.navi p:hover{
-  color: white;
 }
 /*.HOME{
   background-color: white;
