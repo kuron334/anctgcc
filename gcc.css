@@ -21,7 +21,7 @@ a:visited{
   margin: 0;
   padding: 30px 0;
   width: 300px;
-  background-color: black;
+  /*background-color: black;*/
 }
 .navi:hover{
   color: black;
@@ -34,7 +34,7 @@ a:visited{
 .navi p:hover{
   color: black;
 }
-/*.HOME{
+.HOME{
   background-color: white;
   border-top: 1px solid #111;
   border-left: 1px solid #111;
@@ -61,5 +61,5 @@ a:visited{
   border-left: 1px solid #111;
   border-right: 1px solid #111;
   border-bottom: 1px solid #111;
-}*/
+}
 
