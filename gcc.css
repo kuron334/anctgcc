@@ -19,6 +19,7 @@ a:visited{
 }
 a.navilink{
   display: block;
+  width:280;
 }
 .navi{
   margin: 0;
