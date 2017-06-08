@@ -2,13 +2,14 @@
 
 body{
   margin: 0;
+  padding: 0;
 }
 /*.logo:hover{
   opacity: 0.7;
 }
 */
 p{
-  font-size: 25px;
+  font-size: 15px;
 }
 a{
   color: #5507FF;
@@ -58,7 +59,7 @@ a:visited{
   text-align: center;
 }
 */
-
+/*
 .HOME{
   margin: 0;
   padding: 0;
@@ -128,6 +129,7 @@ a:visited{
   border:1px solid black;
   color: black;
   background-color: white;
+}
 .news:hover{
   color: white;
   background-color: black;
@@ -137,4 +139,81 @@ a:visited{
   display: block;
   width: 250px;
   height: 50px;
+}
+*/
+.HOME{
+position: relative;
+text-align: center;
+width: 240px;
+height: 40px;
+border: 1px solid black;
+}
+.HOME a{
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.HOME:hover{
+  color: white;
+  background-color: black;
+}
+.aboutgcc{
+position: relative;
+text-align: center;
+width: 240px;
+height: 40px;
+border: 1px solid black;
+}
+.aboutgcc a{
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.aboutgcc:hover{
+  color: white;
+  background-color: black;
+}
+.ichiran{
+position: relative;
+text-align: center;
+width: 240px;
+height: 40px;
+border: 1px solid black;
+}
+.ichiran a{
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.ichiran:hover{
+  color: white;
+  background-color: black;
+}
+.news{
+position: relative;
+text-align: center;
+width: 240px;
+height: 40px;
+border: 1px solid black;
+}
+.news a{
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.news:hover{
+  color: white;
+  background-color: black;
 }
