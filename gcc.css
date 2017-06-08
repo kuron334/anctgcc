@@ -23,7 +23,7 @@ a:visited{
 .navilink:hover{
   color: white;
 }
-a.navi:hover{
+.navi:hover{
   color: black;
 }
 .navi{
@@ -34,34 +34,34 @@ a.navi:hover{
 .navi p{
   margin: 0;
   text-align: center;
-  color: #fff;
+  color: white;
 }
-.navi:hover{
-  color: #EEE;
+.navi p:hover{
+  color: white;
 }
 .HOME{
-  background-color: #38a3a5;
+  background-color: white;
   border-top: 1px solid #111;
   border-left: 1px solid #111;
   border-right: 1px solid #111;
   border-bottom: 1px solid #111;
 }
-.aboutgcc:{
-  background-color: rgba(230,135,135,1.0);
+.aboutgcc{
+  background-color: white;
   border-top: 1px solid #111;
   border-left: 1px solid #111;
   border-right: 1px solid #111;
   border-bottom: 1px solid #111;
 }
 .ichiran{
-  background-color: hsla(35,80%,60%,1.0);
+  background-color: white;
   border-top: 1px solid #111;
   border-left: 1px solid #111;
   border-right: 1px solid #111;
   border-bottom: 1px solid #111;
 }
 .news{
-  background-color: skyblue;
+  background-color: white;
   border-top: 1px solid #111;
   border-left: 1px solid #111;
   border-right: 1px solid #111;
