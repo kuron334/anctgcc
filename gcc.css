@@ -71,8 +71,8 @@ a:visited{
 .HOME a{
   text-align: center;
   display: block;
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
 }
 .aboutgcc{
   margin: 0;
@@ -89,8 +89,8 @@ a:visited{
 .aboutgcc a{
   text-align: center;
   display: block;
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
 }
 .ichiran{
   margin: 0;
@@ -107,8 +107,8 @@ a:visited{
 .ichiran a{
   text-align: center;
   display: block;
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
 }
 .news{
   margin: 0;
@@ -125,6 +125,6 @@ a:visited{
 .news a{
   text-align: center;
   display: block;
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
 }
