@@ -8,7 +8,7 @@ body{
 }
 */
 p{
-  font-size: 25px;
+  font-size: 30px;
 }
 a{
   color: #5507FF;
@@ -61,7 +61,7 @@ a:visited{
 
 .HOME{
   margin: 0;
-  width: 250px;
+  width: 210px;
   padding: 30px;
   border:1px solid black;
   color: black;
@@ -74,12 +74,12 @@ a:visited{
 .HOME a{
   text-align: center;
   display: block;
-  width: 310px;
-  height: 85px;
+  width: 270px;
+  height: 90px;
 }
 .aboutgcc{
   margin: 0;
-  width: 250px;
+  width: 210px;
   padding: 30px;
   border:1px solid black;
   color: black;
@@ -92,12 +92,12 @@ a:visited{
 .aboutgcc a{
   text-align: center;
   display: block;
-  width: 310px;
-  height: 85px;
+  width: 270px;
+  height: 90px;
 }
 .ichiran{
   margin: 0;
-  width: 250px;
+  width: 210px;
   padding: 30px;
   border:1px solid black;
   color: black;
@@ -110,12 +110,12 @@ a:visited{
 .ichiran a{
   text-align: center;
   display: block;
-  width: 310px;
-  height: 85px;
+  width: 270px;
+  height: 90px;
 }
 .news{
   margin: 0;
-  width: 250px;
+  width: 210px;
   padding: 30px;
   border:1px solid black;
   color: black;
@@ -128,6 +128,6 @@ a:visited{
 .news a{
   text-align: center;
   display: block;
-  width: 310px;
-  height: 85px;
+  width: 270px;
+  height: 90px;
 }
