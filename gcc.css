@@ -28,6 +28,7 @@ a:visited{
 }
 .navi p{
   margin: 0;
+  padding: 30px;
   text-align: center;
   color: black;
 }
