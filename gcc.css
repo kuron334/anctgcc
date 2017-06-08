@@ -156,6 +156,9 @@ left: 0;
 width: 100%;
 height: 100%;
 }
+.HOME a p{
+  position: center center;
+}
 .HOME:hover{
   color: white;
   background-color: black;
