@@ -28,6 +28,11 @@ a:visited{
   background-color: white;
 }
 .navi:hover{
+  margin: 0;
+  padding: 30px;
+  width: 250px;
+  color: black;
+  text-align: center;
   background-color: black;
 }
 .navi a{
@@ -39,6 +44,9 @@ a:visited{
 }
 .navi a:hover{
   color: white;
+}
+.navi a:visited{
+  color: none;
 }
 .navi a p{
   display: block;
