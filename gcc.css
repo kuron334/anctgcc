@@ -17,19 +17,14 @@ a:hover{
 a:visited{
   color: #5507FF;
 }
-.navilink{
-  color: black;
-}
-.navilink:hover{
-  color: white;
-}
-.navi:hover{
-  color: black;
-}
 .navi{
   margin: 0;
   padding: 30px 0;
   width: 300px;
+  background-color: black;
+}
+.navi:hover{
+  color: black;
 }
 .navi p{
   margin: 0;
@@ -37,9 +32,9 @@ a:visited{
   color: white;
 }
 .navi p:hover{
-  color: white;
+  color: black;
 }
-.HOME{
+/*.HOME{
   background-color: white;
   border-top: 1px solid #111;
   border-left: 1px solid #111;
@@ -66,5 +61,5 @@ a:visited{
   border-left: 1px solid #111;
   border-right: 1px solid #111;
   border-bottom: 1px solid #111;
-}
+}*/
 
