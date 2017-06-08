@@ -14,9 +14,11 @@ a{
 a:hover{
   opacity: 0.6;
 }
+/*
 a:visited{
   color: #5507FF;
 }
+*/
 /*
 .navil{
   text-align: center;
@@ -55,14 +57,74 @@ a:visited{
 */
 
 .HOME{
+  margin: 0;
+  width: 250px;
+  padding: 30px;
   border:1px solid black;
+  color: black;
+  background-color: white;
+}
+.HOME:hover{
+  color: white;
+  background-color: black;
+}
+.HOME a{
+  text-align: center;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 .aboutgcc{
+  margin: 0;
+  width: 250px;
+  padding: 30px;
   border:1px solid black;
+  color: black;
+  background-color: white;
+}
+.aboutgcc:hover{
+  color: white;
+  background-color: black;
+}
+.aboutgcc a{
+  text-align: center;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 .ichiran{
+  margin: 0;
+  width: 250px;
+  padding: 30px;
   border:1px solid black;
+  color: black;
+  background-color: white;
+}
+.ichiran:hover{
+  color: white;
+  background-color: black;
+}
+.ichiran a{
+  text-align: center;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 .news{
+  margin: 0;
+  width: 250px;
+  padding: 30px;
   border:1px solid black;
+  color: black;
+  background-color: white;
+}
+.news:hover{
+  color: white;
+  background-color: black;
+}
+.news a{
+  text-align: center;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
