@@ -15,23 +15,33 @@ a:hover{
 a:visited{
   color: #5507FF;
 }
-.navi{
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.submenu{
+  width: 300px;
 }
-.navi:hover{
+.submenu:hover{
   color: #EEE;
 }
-.HOME{
-  background-color: #38a3a5;
+.submenu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  border: 1px solid #98adb7;
+  border-radius: 10px;
+  background: #e7e7e7; 
 }
-.aboutgcc{
-  background-color: rgba(230,135,135,1.0);
+.submenu li{
+  border-bottom: 1px solid #98adb7;
 }
-.ichiran{
-  background-color: hsla(35,80%,60%,1.0);
+.submenu li:last-child{
+  border-bottom: none;
 }
-.NEWS{
-  background-color: skyblue;
+.submenu li:hover{
+  background: #c4d2dd;
+}
+.submenu a{
+  display: block;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: #406485;
 }
