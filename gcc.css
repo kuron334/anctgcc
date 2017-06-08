@@ -37,7 +37,8 @@ a.navilink{
   text-align: center;
 }
 .campaign{
-  width: 50%;
+  width: 1000px;
+  height: 200px;
   margin: 0 auto;
   padding: 20px;
   background-color: #389bc2;
@@ -50,8 +51,8 @@ a.navilink{
 .campaign a{
   display: block;
   text-align: center;
-  width: 50%;
-  height: 400;
+  width: 1000px;
+  height: 200px;
 }
 .HOME{
   border:1px solid black;
