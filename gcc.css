@@ -47,6 +47,11 @@ a.navilink{
 .campaign:hover{
   background-color: #fdb657; 
 }
+.campaign a{
+  display: block;
+  width: 1000px;
+  height: 250;
+}
 .HOME{
   border:1px solid black;
 }
