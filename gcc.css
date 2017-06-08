@@ -17,26 +17,31 @@ a:hover{
 a:visited{
   color: #5507FF;
 }
+
+
 .navi{
   margin: 0;
   padding: 30px;
   width: 250px;
   color: black;
+  text-align: center;
   background-color: white;
 }
 .navi:hover{
   color: white;
   background-color: black;
 }
-.navilink p{
-  margin: 0;
-  text-align: center;
-}
-.navilink{
+.navi a{
   display: block;
   width: auto;
   height: auto;
 }
+.navi a p{
+  margin: 0;
+  text-align: center;
+}
+
+
 .HOME{
   border:1px solid black;
 }
