@@ -32,11 +32,15 @@ a:visited{
   background-color: black;
 }
 .navi a{
+  text-align: center;
   display: block;
   width: auto;
   height: auto;
 }
 .navi a p{
+  display: block;
+  width: auto;
+  height: auto;
   margin: 0;
   text-align: center;
 }
