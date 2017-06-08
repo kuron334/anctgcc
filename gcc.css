@@ -18,18 +18,18 @@ a:visited{
   color: #5507FF;
 }
 a.navilink{
-  color: #111;
+  color: black;
 }
 a.navilink:hover{
-  color:#000;
+  color: white;
 }
 a.navi{
   margin: 0;
   padding: 30px 0;
-  width:30px;
+  width: 300px;
 }
 a.navi:hover{
-  color: #111;
+  color: black;
 }
 .navi p{
   margin: 0;
