@@ -19,7 +19,8 @@ a:visited{
 }
 a.navilink{
   display: block;
-  width:280;
+  width: auto;
+  height: auto;
 }
 .navi{
   margin: 0;
@@ -35,24 +36,6 @@ a.navilink{
 .navi p{
   margin: 0;
   text-align: center;
-}
-.campaign{
-  width: 800px;
-  height: 180px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #389bc2;
-  color: black;
-  text-align: center;
-}
-.campaign:hover{
-  background-color: #fdb657;
-}
-.campaign a{
-  display: block;
-  text-align: center;
-  width: 800px;
-  height: 220px;
 }
 .HOME{
   border:1px solid black;
