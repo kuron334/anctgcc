@@ -49,6 +49,7 @@ a.navilink{
 }
 .campaign a{
   display: block;
+  text-align: center;
   width: 1000px;
   height: 250;
 }
