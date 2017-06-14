@@ -2,7 +2,6 @@
 
 body{
   margin: 0;
-  padding: 0;
 }
 /*.logo:hover{
   opacity: 0.7;
@@ -23,83 +22,29 @@ a:visited{
   color: #5507FF;
 }
 */
-.HOME{
-position: relative;
-text-align: center;
-vertical-align: middle;
-width: 240px;
-height: 160px;
-border: 1px solid black;
+.submenu{
+  width: 300px;
 }
-.HOME a{
-display: block;
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
+.submenu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  border: 1px solid #2c7cff;
+  background: white;
 }
-.HOME a p{
-  position: center center;
+.submenu li{
+  border-bottom: 1px solid #a16eff;
 }
-.HOME:hover{
-  color: white;
-  background-color: black;
+.submenu li:last-child{
+  border-bottom: none;
 }
-.aboutgcc{
-position: relative;
-text-align: center;
-width: 240px;
-height: 160px;
-border: 1px solid black;
+.submenu li:hover{
+  opacity: 0.8;
 }
-.aboutgcc a{
-display: block;
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-}
-.aboutgcc:hover{
-  color: white;
-  background-color: black;
-}
-.ichiran{
-position: relative;
-text-align: center;
-width: 240px;
-height: 160px;
-border: 1px solid black;
-}
-.ichiran a{
-display: block;
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-}
-.ichiran:hover{
-  color: white;
-  background-color: black;
-}
-.news{
-position: relative;
-text-align: center;
-width: 240px;
-height: 160px;
-border: 1px solid black;
-}
-.news a{
-display: block;
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-}
-.news:hover{
-  color: white;
-  background-color: black;
+.submenu a{
+  display: block;
+  padding :10px 30px;
+  text-decoration: none;
+  color: #406485;
 }
