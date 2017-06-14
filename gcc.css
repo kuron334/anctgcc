@@ -31,13 +31,11 @@ h1{
 }
 .subtitle{
   display: block;
-  padding: 3px 20px 0px 20px;
   font-size: 15px;
   color: #406485;
   font-weight: normal;
 }
 .submenu{
-  margin: 0px 0px 0px 20px;
   width: 200px;
 }
 .submenu ul{
