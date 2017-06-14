@@ -7,9 +7,10 @@ body{
   opacity: 0.7;
 }
 */
-p{
+/*p{
   font-size: 15px;
 }
+*/
 a{
   color: #5507FF;
   text-decoration: none;
@@ -44,7 +45,7 @@ a:visited{
 }
 .submenu a{
   display: block;
-  padding :10px 30px;
+  padding : 10px 30px;
   text-decoration: none;
   color: #406485;
 }
