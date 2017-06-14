@@ -37,9 +37,11 @@ h1{
   font-weight: normal;
 }
 .submenu{
+  margin: 0px 0px 0px 10px;
   width: 200px;
 }
 .submenu ul{
+  text-align: center;
   font-size: 15px;
   font-weight: bold;
   list-style: none;
