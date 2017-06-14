@@ -23,18 +23,9 @@ a:visited{
   color: #5507FF;
 }
 */
-.arrow li::before{
-left: 3px;
-width: 4px;
-height: 4px;
-border-top: 1px solid #7a0;
-border-right: 1px solid #7a0;
--webkit-transform: rotate(45deg);
-transform: rotate(45deg);
-}
-
 .submenu{
-  width: 300px;
+  /*width: 300px;*/
+  width: 250px;
 }
 .submenu ul{
   list-style: none;
@@ -55,7 +46,7 @@ transform: rotate(45deg);
 }
 .submenu a{
   display: block;
-  padding : 10px 30px;
+  padding : 50px 30px;
   text-decoration: none;
   color: #406485;
 }
