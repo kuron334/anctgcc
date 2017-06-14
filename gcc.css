@@ -48,14 +48,14 @@ h1{
   margin: 0;
   padding: 0;
 
-  border: 1px solid #2c7cff;
+  border-right: 1px solid #2c7cff;
   background: white;
 }
 .submenu li{
   border-bottom: 1px solid #a16eff;
 }
 .submenu li:last-child{
-  border-bottom: none;
+  border-bottom: 1px solid #2c7cff;
 }
 .submenu li:hover{
   background: #eee;
