@@ -24,13 +24,14 @@ a:visited{
 }
 */
 h1{
+  padding: 10px;
   font-size: 40px;
   color: #406485;
   vertical-align: middle;
 }
 .subtitle{
   display: block;
-  padding-top: 3px;
+  padding-top: 3px 10px 0px 10px;
   font-size: 15px;
   color: #406485;
   font-weight: normal;
@@ -59,7 +60,7 @@ h1{
 }
 .submenu a{
   display: block;
-  padding : 45px 30px;
+  padding : 45px 15px;
   text-decoration: none;
   color: #406485;
 }
