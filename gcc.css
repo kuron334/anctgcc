@@ -56,10 +56,10 @@ h1{
   background: white;
 }
 .submenu li:first-child{
-  padding: 30;
+  padding: 30px 5px;
 }
 .submenu li:first-child:hover{
-  opacity: 0;
+  opacity: 1.0;
 }
 .submenu li{
   border-bottom: 1px solid #a16eff;
