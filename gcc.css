@@ -26,8 +26,8 @@ a:visited{
 img.gcc-logo{
   vertical-align: middle;
   padding: 50px 0px 50px 10px;
-  max-width: 185px;
-  max-height: 40px;
+  /*max-width: 185px;
+  max-height: 40px;*/
 }
 
 h1{
@@ -47,7 +47,7 @@ h1{
 }
 .submenu ul{
   text-align: center;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
   list-style: none;
   margin: 0;
