@@ -27,7 +27,7 @@ img.gcc-logo{
   vertical-align: middle;
   padding: 50px 0px 50px 10px;
   max-width: 185px;
-  max-height: 60px;
+  max-height: auto;
 }
 
 h1{
