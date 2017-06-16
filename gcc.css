@@ -24,8 +24,9 @@ a:visited{
 }
 */
 img.gcc-logo {
-  max-width: 300px;
-  max-height: 40px;
+  padding: 20px;
+  max-width: 200px;
+  max-height: 50px;
 }
 h1{
   /*padding: 10px;
