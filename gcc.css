@@ -23,9 +23,9 @@ a:visited{
   color: #5507FF;
 }
 */
-.gcc-logo {
-  width: 70%;
-  height: 70%;
+img.gcc-logo {
+  max-width: 500px;
+  max-height: 50px;
 }
 h1{
   /*padding: 10px;
