@@ -27,7 +27,7 @@ img.gcc-logo{
   vertical-align: middle;
   padding: 50px 0px 50px 10px;
   max-width: 185px;
-  max-height: auto;
+  max-height: 40px;
 }
 
 h1{
@@ -43,7 +43,7 @@ h1{
   font-weight: normal;
 }
 .submenu{
-  width: 200px;
+  width: 250px;
 }
 .submenu ul{
   text-align: center;
