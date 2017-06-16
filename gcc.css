@@ -25,7 +25,7 @@ a:visited{
 */
 img.gcc-logo{
   vertical-align: middle;
-  padding: 15px 0px 15px 10px;
+  padding: 50px 0px 50px 10px;
   max-width: 185px;
   max-height: 60px;
 }
@@ -61,7 +61,7 @@ h1{
 }
 */
 .submenu li:first-child:hover{
-  opacity: 1;
+  background: white;
 }
 .submenu li{
   border-bottom: 1px solid #a16eff;
