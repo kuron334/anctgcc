@@ -1,16 +1,9 @@
 @charset "UTF-8"; 
 
+/*基本設定--------------------------------------------*/
 body{
   margin: 0;
 }
-/*.logo:hover{
-  opacity: 0.7;
-}
-*/
-/*p{
-  font-size: 15px;
-}
-*/
 a{
   color: #5507FF;
   text-decoration: none;
@@ -18,61 +11,80 @@ a{
 a:hover{
   opacity: 0.6;
 }
-/*
-a:visited{
-  color: #5507FF;
-}
-*/
-img.gcc-logo{
-  vertical-align: middle;
-  padding: 20px 0px 20px 5px;
-  width: 220px;
-  height: 80px;
-  max-width: 100%;
-  max-height: 100%;
-}
 h1{
   font-size: 30px;
-  vertical-align: middle;
 }
-.subtitle{
-  display: block;
-  font-size: 15px;
-  color: #406485;
-  font-weight: normal;
-}
-.submenu{
+/*サイドメニュー------------------------------------------*/
+.sidemenu{
+  float: left;
   width: 250px;
+
+  position: fixed;
 }
-.submenu ul{
+.sidemenu ul{
   text-align: center;
   font-size: 17px;
   font-weight: bold;
   list-style: none;
   margin: 0;
   padding: 0;
-
   border-right: 1px solid #2c7cff;
   background: white;
 }
-.submenu li:first-child:hover{
-  background: white;
-}
-.submenu li{
+.sidemenu li{
   border-bottom: 1px solid #a16eff;
 }
-.submenu li:last-child{
-  border-bottom: 1px solid #2c7cff;
+.sidemenu li a{
+  transition: transform 0.3s linear;
 }
-.submenu li:hover{
-  background: #eee;
-}
-.submenu a{
+.sidemenu a{
   display: block;
   padding : 45px 15px;
   text-decoration: none;
   color: #406485;
 }
-.submenu li a.current{
+img.gcc-logo{
+  vertical-align: middle;
+  padding: 0;
+  width: 250px;
+  height: 110px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.sidemenu li:first-child:hover{
+  background: white;
+}
+.sidemenu li:last-child{
+  border-bottom: none;
+}
+.sidemenu li:hover{
   background: #eee;
 }
+.sidemenu li a:hover{
+  transform: translate(-40px,0px);
+}
+.sidemenu li a.current{
+  background: #eee;
+}
+/*右側設定------------------------------------------*/
+.page{
+  overflow: hidden;
+}
+.maincontents{
+  float: right;
+  width: 1060px;
+  margin: 0 20px 0 0;
+
+  margin-left: 251px;
+}
+.maincontents:hover{
+  background: yellow;
+}
+.main-center{
+}
+h1{
+  margin: 20px 0;
+}
+/*------------------------------------------*/
+
+
