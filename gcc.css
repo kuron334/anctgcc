@@ -3,6 +3,7 @@
 /*基本設定--------------------------------------------*/
 body{
   margin: 0;
+  color: #406485;
 }
 a{
   color: #5507FF;
@@ -64,7 +65,7 @@ img.gcc-logo{
   transform: translate(-40px,0px);
 }
 .sidemenu li a.current{
-  background: #eee;
+  background: #ccc;
 }
 /*右側設定------------------------------------------*/
 .page{
@@ -72,19 +73,23 @@ img.gcc-logo{
 }
 .maincontents{
   float: right;
-  width: 1060px;
+  width: 1070px;
   margin: 0 20px 0 0;
-
   margin-left: 251px;
 }
 .maincontents:hover{
-  background: yellow;
+  /*background: yellow;*/
 }
-.main-center{
-}
+.main-center{}
 h1{
   margin: 20px 0;
 }
-/*------------------------------------------*/
-
+/*GCCについて-----------------------------------*/
+.main-center img{
+  position: relative;
+  top: 20px;
+  left: 230px;
+  height: 50%;
+  width: 50%;
+}
 
