@@ -8,6 +8,7 @@ body{
 a{
   color: #5507FF;
   text-decoration: none;
+  background: #eee;
 }
 a:hover{
   opacity: 0.6;
@@ -30,7 +31,6 @@ h1{
   margin: 0;
   padding: 0;
   border-right: 1px solid #2c7cff;
-  background: white;
 }
 .sidemenu li{
   border-bottom: 1px solid #a16eff;
@@ -43,6 +43,7 @@ h1{
   padding : 45px 15px;
   text-decoration: none;
   color: #406485;
+  background: white;
 }
 img.gcc-logo{
   vertical-align: middle;
@@ -59,7 +60,7 @@ img.gcc-logo{
   border-bottom: none;
 }
 .sidemenu li:hover{
-  background: #eee;
+  background: #ccf;/* #eee*/
 }
 .sidemenu li a:hover{
   transform: translate(-40px,0px);
@@ -76,6 +77,7 @@ img.gcc-logo{
   width: 1070px;
   margin: 0 20px 0 0;
   margin-left: 251px;
+  border-bottom: 1px dashed #406485;
 }
 .maincontents:hover{
   /*background: yellow;*/
@@ -84,12 +86,40 @@ img.gcc-logo{
 h1{
   margin: 20px 0;
 }
-/*GCCについて-----------------------------------*/
+/*GCCについて-----------------------------------------*/
 .main-center img{
   position: relative;
   top: 20px;
-  left: 230px;
-  height: 50%;
-  width: 50%;
+  left: 280px;
+  height: 40%;
+  width: 40%;
+  margin: 0 0 40px 0;
 }
+/*ゲームで遊ぶ-----------------------------------------*/
+.maincontents iframe{
+  position: relative;
+  left: 320px;
+  padding: 40px 20px 40px 20px;
+  width: 407px;
+  height: 407px;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
