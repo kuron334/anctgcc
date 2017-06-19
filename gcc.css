@@ -77,11 +77,7 @@ img.gcc-logo{
   width: 1070px;
   margin: 0 20px 0 0;
   margin-left: 251px;
-  border-bottom: 1px dashed #406485;
-}
-.maincontents:hover{
-  /*background: yellow;*/
-}
+}  /*background: yellow;*/
 .main-center{}
 h1{
   margin: 20px 0;
@@ -98,7 +94,7 @@ h1{
 /*ゲームで遊ぶ-----------------------------------------*/
 .maincontents iframe{
   position: relative;
-  left: 320px;
+  left: 70px;
   padding: 40px 20px 40px 20px;
   width: 407px;
   height: 407px;

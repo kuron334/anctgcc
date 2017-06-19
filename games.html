@@ -6,7 +6,29 @@
   <meta charset="UTF-8">
   <title>Game Creators' Club</title>
   <link rel="stylesheet" href="./gcc.css">
-
+  <style>
+    .gamegather{
+      overflow: hidden;
+      border-bottom: 1px dashed #406485;
+    }
+    #game1{
+      float: right;
+      display: block;
+      position: relative;
+      top: 50px;
+      right: 470px;
+    }
+    #game2{
+      float: right;
+      display: block;
+      position: relative;
+      top: 50px;
+      right: 470px;     
+    }
+    .maincontents iframe{
+      float: left;
+    }
+  </style>
 </head>
 
 
@@ -34,9 +56,20 @@
       <div class="main-center">
         <section>
           <article> 
-            <iframe src="http://alpha.editor.p5js.org/embed/Hy1VWIllZ" scrolling="no" frameborder="no"></iframe>
-            作成者: 
-            <!--<iframe src="http://alpha.editor.p5js.org/embed/S1M4Z8eeb" scrolling="no" frameborder="no"></iframe>-->
+            <div class="gamegather">
+              <iframe src="http://alpha.editor.p5js.org/embed/Hy1VWIllZ" scrolling="no" frameborder="no"></iframe>
+              <div id="game1">            
+                <p>作成者:</p>
+                <p>遊び方:</p>
+              </div>
+            </div>
+            <div class="gamegather">             
+              <iframe src="http://alpha.editor.p5js.org/embed/S1M4Z8eeb" scrolling="no" frameborder="no"></iframe>
+              <div id="game2">
+                <p>作成者:</p>
+                <p>遊び方:</p>
+              </div>
+            </div>   
           </article>
         </section>
       </div>
