@@ -16,6 +16,11 @@ a:hover{
 h1{
   font-size: 30px;
 }
+span.subtitle{
+  display: block;
+  padding-top: 3px;
+  font-size: 15px;
+}
 /*サイドメニュー------------------------------------------*/
 .sidemenu{
   float: left;
@@ -95,9 +100,7 @@ h1{
 .maincontents iframe{
   position: relative;
   left: 70px;
-  padding: 40px 20px 40px 20px;
-  width: 407px;
-  height: 407px;
+  margin: 40px 20px 40px 20px;
   overflow: hidden;
 }
 
