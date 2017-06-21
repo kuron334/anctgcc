@@ -35,22 +35,21 @@ span.subtitle{
   list-style: none;
   margin: 0;
   padding: 0;
-  border-right: 1px solid #2c7cff;
+  border-right: 1px solid #ccc;
 }
 .sidemenu li{
-  border-bottom: 1px solid #a16eff;
+  border-bottom: 1px solid #ccc;
 }
 .sidemenu li a{
-  transition: transform 0.3s linear;
-}
-.sidemenu a{
+  /*transition: transform 0.3s linear;*/
   display: block;
   padding : 45px 15px;
   text-decoration: none;
   color: #406485;
   background: white;
+   
 }
-img.gcc-logo{
+.sidemenu img.gcc-logo{
   vertical-align: middle;
   padding: 0;
   width: 250px;
@@ -64,14 +63,15 @@ img.gcc-logo{
 .sidemenu li:last-child{
   border-bottom: none;
 }
-.sidemenu li:hover{
-  background: #ccf;/* #eee*/
-}
 .sidemenu li a:hover{
-  transform: translate(-40px,0px);
+  /*transform: translate(-40px,0px);*/
+  background: #406485;
+  color: white;
+  opacity: 1;
 }
 .sidemenu li a.current{
-  background: #ccc;
+  background: #406485;
+  color: white;
 }
 /*右側設定------------------------------------------*/
 .page{
@@ -82,7 +82,8 @@ img.gcc-logo{
   width: 1070px;
   margin: 0 20px 0 0;
   margin-left: 251px;
-}  /*background: yellow;*/
+  color: #406485;
+}
 .main-center{}
 h1{
   margin: 20px 0;
