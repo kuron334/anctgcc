@@ -1,0 +1,621 @@
+@font-face{
+  font-family: "SAO UI";
+  src: url(font2/SAO.otf);
+}
+body{
+  margin: 0;
+  background: url(images/b001.png);
+  font-family: "Century Gothic";
+  font-family: "SAO UI";
+}
+li{
+  list-style: none;
+}
+a{
+  color: mediumblue;
+  text-decoration: none;
+  -webkit-tap-highlight-color: lightblue;
+}
+a:hover{
+  opacity: 0.8;
+  background: silver;
+}
+@media screen and (min-width: 1200px){
+  #gnav{
+    width: 100%;
+    background: darkgray;
+  }
+  #gnav ul{
+    background: whitesmoke;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    top: 0; left: 0;
+  }
+  .navbar{
+    overflow: hidden;
+    display: flex;
+    margin: 0;
+  }/*.nav-home,.nav-game,.nav-aboutus,.nav-fes*/
+  .navbar li:not(.title){
+    box-sizing: border-box;
+    float:left;
+    background: silver;
+    padding: 20px;
+    text-align: center;
+  }
+  .navbar li.title{
+    width: 404px;
+  }
+  .navbar li:not(.title) a{
+    width: 100%;
+    padding: 0;
+  }
+  .navbar li:not(.title) a:hover{
+      
+  }
+  .logo{
+    vertical-align: middle;
+  }
+  .navbar li.title a{
+    padding: 0;
+  }
+  .navbar li:not(){
+
+  }
+
+  /*メインコンテンツ*/
+  .page{
+    width: 100%;
+  }
+  .main{
+    width: 1200px;
+    margin: 0 auto;
+  }
+  #jQueryPush{
+    display: none;
+  }
+  #jQueryBox1{
+    display: none!important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+  /*グローバルナビゲーション設定-----------------------*/
+  #gnav{
+    width: 100%;
+    /*background: papayawhip;*/
+    background: url(images/b001.gif);
+    box-shadow: 0px 3px 10px 5px rgba(0,0,0,0.5);
+  }
+  .navbar{
+    background: white;
+    overflow: hidden;
+    width: 728px;
+    margin: 0 auto;
+    position: relative;
+    top: 0; left: 0;
+  }
+  .logo{
+    vertical-align: middle;
+    margin: 0;
+  }
+  .navbar li{
+    width: 100%;
+  }
+  .navbar li.title{
+    padding: 12px 0;
+    width: 404px;
+  }
+  .navbar li:not(.title){
+    margin: 0;
+    background: white;
+    width: 680px;
+  }
+  .navbar li:not(.title) a{
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+  }
+  .navbar li:not(.title) a:hover{
+    background: lightcyan;
+  }
+  .navbar li.title a:hover{
+    opacity: 0.8;
+  }
+  #gnav ul #jQueryPush{
+    cursor: pointer;
+    position: absolute;
+    top: 24px; left: 680px;
+  }
+  #jQueryPush:hover{
+    background: lightblue;
+  }
+  #jQueryBox2{
+    display: none!important;
+  }
+  .menu
+  { 
+    margin: 0;
+    width: 40px; height: 30px; 
+    border: 1px solid darkgray; border-radius: 4px; 
+  }
+  .menu1
+  { 
+    width: 20px; height: 2px; background: gray; 
+    top: 9px; left: 11px; position: absolute; 
+    cursor: pointer;
+  } 
+  .menu2
+  { 
+    width: 20px; height: 2px; background: gray; 
+    top: 15px; left: 11px; position: absolute;
+  }
+  .menu3
+  { 
+    width: 20px; height: 2px; background: gray; 
+    top: 21px; left: 11px;position: absolute; 
+  }
+  .menu:hover{
+    background: lightblue;
+    cursor: pointer;
+  }
+
+  .title-bar{
+    width: 100%;
+    /*background: papayawhip;*/
+    background: url(images/b001.gif);
+  }
+  .title-bar-contents{
+    margin: 0 auto;
+    width: 768px;
+    background: url(images/2.png);
+  }
+  .title-bar-contents h1{
+    display: block;
+    padding: 0;
+    padding-bottom: 10px;
+    margin: 0;
+    padding-left: 30px;
+    font-family: "SAO UI";
+  }
+  .title-bar-contents p{
+    display: block;
+    padding: 0;
+    padding-left: 30px;
+    margin: 0;
+  }
+  .title-bar-space{
+    width: 768px;
+  }
+  /*メインコンテンツ設定----------------------------*/
+
+  .page{
+    width: 100%;
+    /*background: papayawhip;*/
+    background: url(images/b001.gif);
+  }
+  .main{
+    width: 768px;
+    margin: 0 auto;
+    background: url(images/b001.gif);
+    overflow: hidden;
+    padding: 0;
+  }
+  .maincontents{
+    width: 544px;
+    float: left;
+    background: white;
+    padding: 20px;
+    margin-right: 20px;
+    border: 1px solid silver;
+  }
+  .maincontents h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Century Gothic";
+    font-family: "SAO UI";
+    font-weight: 300;
+    margin: 0;
+    padding-bottom: 20px;
+  }
+  .maincontents h3{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+  }
+  .maincontents p{
+    margin: 0;
+    font-size: 14px;
+  }
+  .section{
+    padding: 10px 0;
+    border-bottom: 1px dashed silver;
+  }
+  .section:last-child{
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  p.toukou{
+    font-size: 12px;
+    padding-top: 3px;
+  }
+  .subcontents{
+    width: 162px;
+    float: left;
+    padding: 0;
+    /*background: lightblue;
+    box-shadow: 0px 5px 10px 2px rgba(0,0,0,0.3);
+    */
+  }
+  .about{
+    border: 1px solid silver;
+    background: white;
+  }
+  .about h5{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 2px 0;
+    margin: 0;
+    background: skyblue;
+    border-bottom: 1px dashed black;
+  }
+  .about p{
+    display: block;
+    margin: 0;
+    padding: 2px 7px;
+    font-size: 14px;
+  }
+  .submenu ul{
+    margin: 0;
+    margin-top: 50px;
+    padding: 0;
+    border: 1px solid skyblue;
+  }
+  .submenu-title{
+    font-size: 15px;
+    padding: 5px 0 5px 15px;
+    background: skyblue;
+    color: white;
+    font-weight: 600;
+    text-shadow: 1px 1px 5px black;
+  }
+  .submenu li:not(:last-child){
+    border-bottom: 1px solid skyblue;
+  }
+  .submenu li i{
+    padding: 0 6px;
+  }
+  .submenu a{
+    display: block;
+    padding: 2px 0;
+    font-size: 14px;
+    color: black;
+  }
+  .submenu a:hover{
+    background: lightblue;
+    color: blue;
+  }
+  /*フッター設定-------------------------*/
+
+  .footer-container{
+    padding: 0px;
+    width: 100%;
+    /*background: papayawhip;*/
+    background: url(images/b001.gif);
+  }
+  /*
+  .footer-container a{
+    font-size: 14px;
+  }
+  .footer-nav{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    width: 768px;
+    margin: 0 auto;
+    background: green;
+    border-top: 1px solid black;
+  }
+  .footer-nav li,.info li{
+    margin: 0;
+    padding: 0;
+  }
+  .footer-nav a{
+    color: white;
+    opacity: 0.6;
+  }
+  .footer-nav a:hover{
+    background: gray;
+  }
+  */
+  .info{
+    background: yellowgreen;
+    color: white;
+    width: 768px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    font-size: 12px;
+  }
+  .copyright{
+    display: block;
+    float: left;
+    padding: 0 5px;
+  }
+  .info address{
+    float: right;
+    padding: 0 5px;
+    margin-top: 2.5px;
+  }
+}
+@media screen and (max-width: 767px){
+  /*グローバルナビゲーション設定-----------------------*/
+  #gnav{
+    width: 100%;
+    /*background: papayawhip;*/
+    background: url(images/b001.gif);
+    box-shadow: 0px 3px 10px 5px rgba(0,0,0,0.5);
+  }
+  .navbar{
+    background: white;
+    overflow: hidden;
+    width: 280px;/*728*/
+    margin: 0 auto;
+    position: relative;
+    top: 0; left: 0;
+  }
+  .logo{
+    vertical-align: middle;
+    margin: 0;
+  }
+  .navbar li{
+    width: 100%;
+  }
+  .navbar li.title{
+    padding: 12px 0;
+    width: 404px;
+    visibility: hidden;
+  }
+  .navbar li:not(.title){
+    margin: 0;
+    background: white;
+    width: 240px;/*680*/
+  }
+  .navbar li:not(.title) a{
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 14px;
+    color: black;
+  }
+  .navbar li:not(.title) a:hover{
+    background: lightcyan;
+  }
+  .navbar li.title a:hover{
+    opacity: 0.8;
+  }
+  #gnav ul #jQueryPush{
+    cursor: pointer;
+    position: absolute;
+    top: 24px; left: 250px;/*680*/
+  }
+  #jQueryPush:hover{
+    background: lightblue;
+  }
+  #jQueryBox2{
+    display: none!important;
+  }
+  .menu
+  { 
+    margin: 0;
+    width: 40px; height: 30px; 
+    border: 1px solid darkgray; border-radius: 4px; 
+  }
+  .menu1
+  { 
+    width: 20px; height: 2px; background: gray; 
+    top: 9px; left: 11px; position: absolute; 
+    cursor: pointer;
+  } 
+  .menu2
+  { 
+    width: 20px; height: 2px; background: gray; 
+    top: 15px; left: 11px; position: absolute;
+  }
+  .menu3
+  { 
+    width: 20px; height: 2px; background: gray; 
+    top: 21px; left: 11px;position: absolute; 
+  }
+  .menu:hover{
+    background: lightblue;
+    cursor: pointer;
+  }
+
+  .title-bar{
+    width: 100%;
+    /*background: papayawhip;*/
+    background: url(images/b001.gif);
+  }
+  .title-bar-contents{
+    margin: 0 auto;
+    width: 320px;/*768*/
+    background: url(images/2.png);
+  }
+  .title-bar-contents h1{
+    display: block;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+  }
+  .title-bar-contents p{
+    display: block;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+  }
+  /*メインコンテンツ設定----------------------------*/
+
+  .page{
+    width: 100%;
+    /*background: papayawhip;*/
+    background: url(images/b001.gif);
+  }
+  .main{
+    width: 320px;/*768*/
+    margin: 0 auto;
+    background: url(images/b001.gif);
+    overflow: hidden;
+    padding: 0;
+  }
+  .maincontents{
+    width: 320px;/*544*/
+    float: left;
+    background: white;
+    padding: 5px;
+  }
+  .maincontents h1{
+    text-align: center;
+    font-size: 24px;
+    font-family: "Century Gothic";
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+  }
+  .maincontents h3{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+  }
+  .maincontents p{
+    margin: 0;
+    font-size: 12px;
+  }
+  .section{
+    padding: 10px 0;
+    border-bottom: 1px dashed silver;
+  }
+  .section:last-child{
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  p.toukou{
+    font-size: 10px;
+    padding-top: 3px;
+  }
+  .subcontents{
+    width: 162px;
+    float: left;
+    padding: 0;
+    /*background: lightblue;
+    box-shadow: 0px 5px 10px 2px rgba(0,0,0,0.3);
+    */
+    display: none;
+  }
+  .about{
+    border: 1px solid silver;
+    background: white;
+  }
+  .about h5{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 2px 0;
+    margin: 0;
+    background: skyblue;
+    border-bottom: 1px dashed black;
+  }
+  .about p{
+    display: block;
+    margin: 0;
+    padding: 2px 7px;
+    font-size: 14px;
+  }
+  .submenu ul{
+    margin: 0;
+    margin-top: 50px;
+    padding: 0;
+    border: 1px solid skyblue;
+  }
+  .submenu-title{
+    font-size: 15px;
+    padding: 5px 0 5px 15px;
+    background: skyblue;
+    color: white;
+    font-weight: 600;
+    text-shadow: 1px 1px 5px black;
+  }
+  .submenu li:not(:last-child){
+    border-bottom: 1px solid skyblue;
+  }
+  .submenu li i{
+    padding: 0 6px;
+  }
+  .submenu a{
+    display: block;
+    padding: 2px 0;
+    font-size: 14px;
+    color: black;
+  }
+  .submenu a:hover{
+    background: lightblue;
+    color: blue;
+  }
+  /*フッター設定-------------------------*/
+
+  .footer-container{
+    padding: 0px;
+    width: 100%;
+    /*background: papayawhip;*/
+    background: url(images/b001.gif);
+  }
+  /*
+  .footer-container a{
+    font-size: 14px;
+  }
+  .footer-nav{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    width: 768px;
+    margin: 0 auto;
+    background: green;
+    border-top: 1px solid black;
+  }
+  .footer-nav li,.info li{
+    margin: 0;
+    padding: 0;
+  }
+  .footer-nav a{
+    color: white;
+    opacity: 0.6;
+  }
+  .footer-nav a:hover{
+    background: gray;
+  }
+  */
+  .info{
+    background: yellowgreen;
+    color: white;
+    width: 320px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    font-size: 8px;
+  }
+  .copyright{
+    display: block;
+    float: left;
+    padding: 0 5px;
+  }
+  .info address{
+    float: right;
+    padding: 0 5px;
+    margin-top: 2.5px;
+  }
+} 
